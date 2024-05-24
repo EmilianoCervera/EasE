@@ -1,10 +1,15 @@
 import { StyleSheet } from "react-native";
 
 export const globalStyles = StyleSheet.create({
-    container: {
-      flex: 1,
-      backgroundColor: '#fff',
-      alignItems: 'center',
-      justifyContent: 'center',
-    },
-  });
+  scrollViewContent: {
+    flexGrow: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  container: {
+    flex: 1,
+    backgroundColor: "#333",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+});
